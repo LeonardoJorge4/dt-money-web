@@ -1,4 +1,4 @@
-import { styled } from 'styled-components';
+import { styled } from 'styled-components'
 
 export const SearchFormContainer = styled.form`
   display: flex;
@@ -21,6 +21,7 @@ export const SearchFormContainer = styled.form`
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    cursor: pointer;
 
     border: 0;
     padding: 1rem;
@@ -30,11 +31,16 @@ export const SearchFormContainer = styled.form`
     font-weight: bold;
     border-radius: 6px;
 
-    &:hover {
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    &:not(:disabled):hover {
       background: ${({ theme }) => theme['green-500']};
       border-color: ${({ theme }) => theme['green-500']};
       color: ${({ theme }) => theme.white};
       transition: background-color 0.2s, color 0.2s, border-color 0.2s;
     }
   }
-`;
+`

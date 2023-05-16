@@ -1,4 +1,4 @@
-import { css, styled } from 'styled-components';
+import { css, styled } from 'styled-components'
 
 export const SummaryContainer = styled.section`
   width: 100%;
@@ -10,10 +10,10 @@ export const SummaryContainer = styled.section`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: -5rem;
-`;
+`
 
 interface SummaryCardProps {
-  variant?: 'green';
+  variant?: 'green'
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
@@ -39,4 +39,4 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     css`
       background: ${({ theme }) => theme['green-700']};
     `}
-`;
+`
