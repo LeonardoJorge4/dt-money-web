@@ -14,7 +14,7 @@
 
 ## 🕵️ Sobre 
 
-Todo App simples que foi criado para resolução do desafio do curso Ignite da Rocketseat. Essa aplicação apesar de simples é um excelente exemplo para praticar manipulação de estados.
+O DT Money é uma alternativa simples e eficaz para gerenciar suas finanças, permitindo o cadastro de entradas, saídas e a organização das mesmas em categorias.
 
 ## 🚀 Tecnologias
 
